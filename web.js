@@ -1,7 +1,11 @@
 var express = require('express');
 
 var app = express.createServer(express.logger());
+for (var key in express){
+    //console.log(key);    
+}
 
+app.use(express.static(__dirname + '/static'));
 app.get('/mods', function(request, response) {
   response.send('what mods?');
 });
