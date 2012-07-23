@@ -21,7 +21,8 @@ app.get('/obj', function(req, res) {
 });
 
 app.get('/', function(request, response) {
-    response.send('Hello World!, i am using express');
+    response.sendfile('static/node.html');
+    //response.send('Hello World!, i am using express');
 });
 
 app.get('*', function(request, response) {

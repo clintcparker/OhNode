@@ -1,0 +1,1 @@
+{"ts":1340837455587,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"{\n  \"name\": \"node_example\",\n  \"version\": \"0.0.1\",\n  \"dependencies\":{\n   \"express\" : \"2.5.8\"   \n  }\n}"]],"start1":0,"start2":0,"length1":0,"length2":100}]],"length":100}
